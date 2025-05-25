@@ -1,107 +1,220 @@
-@font-face {
-    font-family: 'Suisse';
-    src: url('./fonts/suisse-intl-regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
+/*.header-top-text,*/
+/*.header-top-text-1,*/
+/*.header-top-text-2,*/
+/*.header-main-text h1,*/
+/*.header-bottom-text p {*/
+/*    font-family: 'Suisse', Arial, sans-serif;*/
+/*}*/
 
-body {
-    background-color: #F5F5F5;
+/*@font-face {*/
+/*    font-family: "Suisse";*/
+/*    src: url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.eot");*/
+/*    src: url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.eot?#iefix") format("embedded-opentype"),*/
+/*    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.woff2") format("woff2"),*/
+/*    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.woff") format("woff"),*/
+/*    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.ttf") format("truetype"),*/
+/*    url("https://db.onlinewebfonts.com/t/13ab13418f633c1b0516fed6e30bedbc.svg#Suisse Int'l") format("svg");*/
+/*}*/
 
-}
+/*body {*/
+/*    background-color: #F5F5F5;*/
+/*}*/
 
-* {
-    padding: 0;
-    margin: 0;
-    z-index: 1;
-}
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    z-index: 1;*/
+/*}*/
 
-header {
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.40);
-    background-color: #FFFFFF;
-    width: 100%;
-    max-width: 1150px;
-    margin: 0 auto;
-    overflow: hidden;
+/*.body-main-footer {*/
+/*    border-radius: 50px;*/
+/*    box-shadow: 100px -10px 80px 30px rgba(0, 0, 0, 0.40);*/
+/*    background-color: #FFFFFF;*/
+/*    width: 100%;*/
+/*    max-width: 1150px;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-}
+/*.header-content-img {*/
+/*    position: relative;*/
+/*    width: 100%;*/
 
-.header-content-img {
-    position: relative;
-    width: 100%;
+/*    padding-top: 50px;*/
+/*}*/
 
-    padding-top: 50px;
-}
+/*.header-img {*/
+/*    border-radius: 50px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    z-index: 2;*/
 
-.header-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    z-index: 2;
+/*}*/
 
-}
+/*.header-hero-content {*/
+/*    position: relative;*/
+/*    z-index: 3;*/
+/*    text-align: center;*/
 
-.header-hero-content {
-    position: relative;
-    z-index: 3;
-    text-align: center;
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
-    width: 100%;
-    height: 100%;
-}
+/*.header-top-text-stroke {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
 
-.header-top-text-stroke {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/*    padding-bottom: 80px;*/
+/*}*/
 
-    padding-bottom: 80px;
-}
+/*.header-stroke-1 {*/
+/*    width: 100%;*/
+/*}*/
 
-.header-stroke-1 {
-    width: 100%;
-}
+/*.header-top-text {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
 
-.header-top-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+/*    font-family: "Suisse", serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 35px;*/
+/*    line-height: 80%;*/
+/*    color: #000;*/
+/*}*/
 
-    font-family: "Suisse", serif;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 80%;
-    color: #000;
-}
+/*.header-main-text {*/
+/*    font-family: "Suisse", serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 107px;*/
+/*    text-align: center;*/
+/*    line-height: 80%;*/
 
-.header-main-text {
-    font-family: "Suisse", serif;
-    font-weight: 400;
-    font-size: 107px;
-    text-align: center;
-    line-height: 80%;
+/*    padding: 20px 0 30px 0;*/
+/*}*/
 
-    padding: 20px 0 30px 0;
-}
+/*.header-bottom-icon {*/
+/*    padding-bottom: 74px;*/
+/*}*/
 
-.header-bottom-icon{
-    padding-bottom: 74px;
-}
+/*.header-bottom-content {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*    padding: 0 20px 60px 20px;*/
+/*}*/
 
-.header-bottom-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px 0 20px;
-}
+/*.header-central-bottom-icon {*/
+/*    position: relative;*/
+/*    font-family: "Suisse", serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 10px;*/
+/*    text-align: center;*/
+/*    color: #000;*/
+/*    top: 10px;*/
+/*}*/
+
+/*.main-page1 {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: row;*/
+/*    gap: 200px;*/
+/*    align-items: center;*/
+
+/*    padding: 0 55px 130px 30px;*/
+/*}*/
+
+/*.m-p1-tree{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 43%;*/
+/*}*/
+
+/*.main-page1 p{*/
+/*    font-family: "Suisse", serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 43px;*/
+/*    letter-spacing: -0.02em;*/
+/*    color: #000;*/
+/*    line-height: 100%;*/
+/*}*/
+
+/*.main-page1-left{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    gap: 65px;*/
+
+/*    padding-top: 27px;*/
+/*}*/
+
+/*.main-page1-left p{*/
+/*    text-align: right;*/
+/*}*/
+
+/*.main-page1-right p {*/
+/*    text-align: left;*/
+/*}*/
+
+/*.main-page1-left-content{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    gap: 15px;*/
+/*}*/
+
+/*.main-page1-left-content1-left-part{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    align-items: end;*/
+/*}*/
+
+/*.main-page1-left-content1-left-part img{*/
+/*    width: 69px;*/
+/*    height: 69px;*/
+/*}*/
+
+/*.main-page1-right{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    gap: 65px;*/
+/*    padding-bottom: 120px;*/
+/*}*/
+
+/*.main-page1-right-content{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    gap: 15px;*/
+/*}*/
+
+/*.main-page1-right-content1-right-part{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    align-items: start;*/
+/*}*/
+
+/*.main-page1-right-content1-right-part img{*/
+/*    width: 69px;*/
+/*    height: 69px;*/
+/*    align-items: center;*/
+/*}*/
